@@ -19,11 +19,11 @@ s3e (limited)
 Types
 =====
 
-CIwVector2D
-CIwVector3D
-CIwTexture
-CIwMaterial
-CIwFMat
+- CIwVector2D
+- CIwVector3D
+- CIwTexture
+- CIwMaterial
+- CIwFMat
 
 Objectives
 ==========
