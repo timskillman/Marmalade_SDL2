@@ -78,7 +78,7 @@ The objective of this development is to simply replace Marmalade SDK with altern
 
 However, to replace the Marmalade SDK entirely is a massive undertaking and YOUR SUPPORT is essential to achieve this.
 
-A sample Marmalade project and Marmalade wrapper WILL be made available for you to try out very soon - so watch this space :)
+Sample Marmalade-SDL2 projects and Marmalade wrapper WILL be made available for you to try out very soon - so watch this space :)
 
 Extensions
 ==========
