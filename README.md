@@ -80,3 +80,6 @@ However, to replace the Marmalade SDK entirely is a massive undertaking and YOUR
 
 A sample Marmalade project and Marmalade wrapper WILL be made available for you to try out very soon - so watch this space :)
 
+Extensions
+==========
+This development makes it possible to add other non-Marmalade extensions such as file loaders (e.g. OBJ/STL) and other useful features! 
