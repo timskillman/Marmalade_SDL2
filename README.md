@@ -11,7 +11,7 @@ Development is underway to support the following;
 Classes
 =======
 
-s3e (limited)
+- s3e (limited)
 - IwGx
 - Iw2D
 - IwGL
