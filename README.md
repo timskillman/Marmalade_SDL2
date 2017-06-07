@@ -1,4 +1,3 @@
-# Marmalade_SDL2
 A Marmalade to SDL2.0 wrapper.  
 ==============================
 
@@ -26,6 +25,8 @@ CIwTexture
 CIwMaterial
 CIwFMat
 
+Objectives
+==========
 The objective of this development is to simply replace Marmalade SDK with alternative classes of the same name and parameters
 (but certainly not the same code!)
 
