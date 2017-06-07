@@ -12,6 +12,10 @@ Classes
 =======
 
 - s3e (limited)
+  - s3eSurfaceGetInt
+  - s3eKeyboardUpdate
+  - s3ePointerUpdate
+  - s3eDeviceYield
   - s3eDeviceCheckQuitRequest
   - s3ePointerGetTouchX
   - s3ePointerGetTouchY
