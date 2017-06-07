@@ -12,8 +12,8 @@ Classes
 =======
 
 - s3e (limited)
- - s3eDeviceCheckQuitRequest
- - s3ePointerGetTouchX
+  - s3eDeviceCheckQuitRequest
+  - s3ePointerGetTouchX
 - IwGx
 - Iw2D
 - IwGL
