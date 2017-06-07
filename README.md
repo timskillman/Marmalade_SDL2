@@ -12,6 +12,7 @@ Classes
 =======
 
 - s3e (limited)
+-- s3eDeviceCheckQuitRequest
 - IwGx
 - Iw2D
 - IwGL
