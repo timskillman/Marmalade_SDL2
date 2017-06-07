@@ -12,9 +12,9 @@ Classes
 =======
 
 s3e (limited)
-IwGx\n
-Iw2D
-IwGL
+- IwGx
+- Iw2D
+- IwGL
 
 Types
 =====
