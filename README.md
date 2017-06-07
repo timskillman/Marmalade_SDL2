@@ -14,9 +14,49 @@ Classes
 - s3e (limited)
   - s3eDeviceCheckQuitRequest
   - s3ePointerGetTouchX
+  - s3ePointerGetTouchY
+  - s3ePointerWheelChangedEvent
+  - s3ePointerGetTouchState
+  - s3eFileCheckExists
 - IwGx
+  - IwGxInit
+  - IwGxTerminate
+  - IwGxSetPerspMul
+  - IwGxSetOrtho
+  - IwGxSetFarZNearZ
+  - IwGxSetViewMatrix
+  - IwGxSetModelMatrix
+  - IwGxGetModelViewClipMatrix
+  - IwGxSetLightType
+  - IwGxSetLightDirn
+  - IwGxSetLightCol
+  - IwGxFogOn
+  - IwGxSetClearColour
+  - IwGxClear
+  - IwGxLightingOn
+  - IwGxLightingOff
+  - IwGxSetMaterial
+  - IwGxFlush
+  - IwGxSwapBuffers
+  - IwGxClipVec
+  - IwGxSetColStream
+  - IwGxSetUVStream
+  - IwGxSetNormStream
+  - IwGxSetVertStream
+  - IwGxSetVertStreamModelSpace
+  - IwGxDrawPrims
+  - _IwGxSetViewRect
+  
 - Iw2D
-- IwGL
+  - Iw2DDrawLine
+  - Iw2DDrawPolygon
+  - Iw2DDrawRect
+  - Iw2DFillRect
+  - Iw2DFillPolygon
+  - Iw2DSetColour
+  - Iw2DLineWidth
+  - Iw2DDrawTexture
+  
 
 Types
 =====
