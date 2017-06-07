@@ -12,7 +12,7 @@ Classes
 =======
 
 s3e (limited)
-IwGx
+IwGx\n
 Iw2D
 IwGL
 
