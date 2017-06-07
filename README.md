@@ -1,5 +1,5 @@
-A Marmalade to SDL2.0 wrapper.  
-==============================
+A Marmalade to SDL2.0 SDK alternative  
+=====================================
 
 For all those developers, left in the lurch by Marmalade, this Git repo provides a limited solution to help convert
 Marmalade projects to SDL 2.0.
