@@ -65,11 +65,12 @@ Classes
 Types
 =====
 
-- CIwVector2D
-- CIwVector3D
+- CIwFVec2
+- CIwFVec3
 - CIwTexture
 - CIwMaterial
 - CIwFMat
+- CIwFMat2D
 
 Objectives
 ==========
