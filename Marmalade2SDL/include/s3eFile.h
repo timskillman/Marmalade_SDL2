@@ -16,116 +16,22 @@ typedef enum s3eFileSeekOrigin
 
 typedef enum s3eFileProperty
 {
-	/**
-	* Returns wether the rom:// drive is valid and in use.
-	* This is a useful indicator for telling if the data directory
-	* has been mounted as RAM (ROM drive does not exist) or ROM (ROM drive does
-	* exist).
-	*/
 	S3E_FILE_ROM_EXISTS = 1,
-
-	/**
-	* Return the total number of bytes of the storage available on the ram://
-	* drive
-	*/
 	S3E_FILE_BYTES_TOTAL = 2,
-
-	/**
-	* Return the number of bytes free on ram:// drive
-	*/
 	S3E_FILE_BYTES_FREE = 3
 } s3eFileProperty;
 
 typedef enum s3eFileStats
 {
-	/**
-	* [int, read] Returns whether the file exists.
-	* This property will evaluate to 1 on any file that s3eFileOpen() can
-	* open, and will hence include files in any registered user filesystem.
-	* This produces the same result as calling s3eFileCheckExists().
-	* This property will evaluate to 0 otherwise.
-	*/
 	S3E_FILE_ISFILE = 0,
-
-	/**
-	* [int, read] Returns whether the directory exists.
-	* This property will evaluate to 1 on valid directory paths. This does not
-	* include directories in the user file system.
-	* This property will evaluate to 0 otherwise.
-	*/
 	S3E_FILE_ISDIR = 1,
-
-	/**
-	* [int, read] Returns whether the file exists in the user file system.
-	* This property will evaluate to 1 on any file that the user file system
-	* can open. This property will evaluate to 0 otherwise.
-	*/
 	S3E_FILE_ISUSER = 2,
-
-	/**
-	* [int, read] Returns whether the file is writable.
-	* This property will evaluate to 1 on any file that exists on a writable
-	* drive.
-	* This property will evaluate to 0 on any file that exists on a read-only
-	* drive.
-	* For files that exists on a ROM drive but are shadowable to RAM this will
-	* return 1, as opening the file for writing would succeed.
-	* This property will fail to evaluate for a file that does not exist
-	* (return -1).
-	*/
 	S3E_FILE_ISWRITABLE = 3,
-
-	/**
-	* [int, read] Returns the size of the file, in bytes.
-	* This property will fail to evaluate (return -1) on a non-existant file.
-	*/
 	S3E_FILE_SIZE = 4,
-
-	/**
-	* [int, read] Returns the date of last modification of the file, in
-	* milliseconds elapsed since midnight (00:00:00), January 1, 1970.
-	* This is the same time datum as used by the Timer module. The date
-	* returned is in the local time of the device.
-	* Querying this property will fail for files in the the user file system.
-	* This property will fail to evaluate (return -1) on a non-existant file.
-	*/
 	S3E_FILE_MODIFIED_DATE = 5,
-
-	/**
-	* [int, read] Returns the free space in bytes on the drive that stores
-	* this file.
-	* The path specified must be a valid directory on the drive, for
-	* example '/' or 'ram://'.
-	* If querying the free space fails for any reason (invalid drive, invalid
-	* path), the return value of s3eFileGetFileInt() will always be 0.
-	* If S3E_FILE_DRIVE_BYTES_FREE == S3E_FILE_DRIVE_BYTES_TOTAL then the drive
-	* is empty. If S3E_FILE_DRIVE_BYTES_FREE == 0 then the drive is full.
-	*/
 	S3E_FILE_DRIVE_BYTES_FREE = 6,
-
-	/**
-	* [string, read] Returns a string containing the drive on which the file
-	* is stored.
-	* If the file does not exist this property will fail to evaluate (return
-	* NULL string). If the file is on the user file system, this will return
-	* "user" (without the '://' drive syntax)
-	*/
 	S3E_FILE_DRIVE = 7,
-
-	/**
-	* [int, read] Returns the total size in bytes of the drive that contains
-	* this path. The path specified must be a valid directory on the drive, for
-	* example '/' or 'ram://'.  If querying the total size fails for any reason
-	* (invalid drive, invalid path), the return value of s3eFileGetFileInt()
-	* will always be 0.
-	*/
 	S3E_FILE_DRIVE_BYTES_TOTAL = 8,
-
-	/**
-	* [int, read] Returns a real path string to the file for the drive or path
-	* specified.  For example 'rom://myfile.png' could return
-	* 'g:/data/myfile.png'
-	*/
 	S3E_FILE_REAL_PATH = 9,
 } s3eFileStats;
 
