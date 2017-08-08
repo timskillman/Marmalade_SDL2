@@ -1,12 +1,8 @@
-A Marmalade to SDL2.0 SDK alternative  
-=====================================
+Marmalade to SDL2.0 code  
+========================
 
-For all those developers, left in the lurch by Marmalade, this Git repo provides a limited solution to help convert
-Marmalade projects to SDL 2.0.
+This repo holds SDL2 code that is equivalent to some Marmalade classes.
 
-It aims to compile and run existing Marmalade SDK projects in SDL 2.0 and provide toolchains for cross platform deployment.
-
-Development is currently underway with the following supported classes;
 
 Classes
 =======
@@ -74,12 +70,9 @@ Types
 
 Objectives
 ==========
-The objective of this development is to simply replace Marmalade SDK with alternative classes of the same name and parameters
-(but certainly not the same code!)
+The objective of this development is to provide equivalent Marmalade classes to help developers use SDL2 as an alternative.
 
-However, to replace the Marmalade SDK entirely is a massive undertaking and YOUR SUPPORT is essential to achieve this.
-
-Sample Marmalade-SDL2 projects and Marmalade wrapper WILL be made available for you to try out very soon - so watch this space :)
+Sample Marmalade-SDL2 examples will be made available for you to try out very soon - so watch this space :)
 
 Extensions
 ==========

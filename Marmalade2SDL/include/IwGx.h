@@ -13,9 +13,7 @@
 #endif /* __ANDROID__ */
 
 #ifdef __WINDOWS__
-#include <GL/freeglut.h>
 #include <GL/gl.h>
-//#include <GL/glu.h>  //only needed for gluPerspective (now deprecated)
 #include <windows.h>
 #include "SDL_syswm.h"
 #endif /* __WINDOWS__ */

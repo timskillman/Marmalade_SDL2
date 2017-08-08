@@ -2,10 +2,8 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include "s3e.h"
-//#include "IwImage.h"
 #include "s3eTypes.h"
 #include "IwTexture.h"
-
 
 
 class CIwMaterial {
